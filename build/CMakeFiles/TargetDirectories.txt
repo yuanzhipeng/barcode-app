@@ -1,0 +1,3 @@
+/opt/barcode-app/build/CMakeFiles/rebuild_cache.dir
+/opt/barcode-app/build/CMakeFiles/edit_cache.dir
+/opt/barcode-app/build/CMakeFiles/barcode_app.dir
