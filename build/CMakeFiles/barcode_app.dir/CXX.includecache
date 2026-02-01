@@ -6,6 +6,36 @@
 
 #IncludeRegexTransform: 
 
+../../EASY-EAI-Toolkit/EASY-EAI-Toolkit-C-SDK/easyeai-api/peripheral_api/camera/camera.h
+rga/RgaApi.h
+-
+
+../../EASY-EAI-Toolkit/EASY-EAI-Toolkit-C-SDK/easyeai-api/peripheral_api/display/disp.h
+rkmedia/rkmedia_api.h
+../../EASY-EAI-Toolkit/EASY-EAI-Toolkit-C-SDK/easyeai-api/peripheral_api/display/rkmedia/rkmedia_api.h
+
+../core/safeQueue.h
+queue
+-
+mutex
+-
+condition_variable
+-
+
+../display/displayManager.h
+opencv2/opencv.hpp
+-
+safeQueue.h
+../display/safeQueue.h
+
+../media/cameraManager.h
+opencv2/opencv.hpp
+-
+safeQueue.h
+../media/safeQueue.h
+thread
+-
+
 /mnt/usr/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
 /mnt/usr/include/opencv4/opencv2/opencv2/core.hpp
@@ -1290,23 +1320,23 @@ opencv2/viz/viz3d.hpp
 opencv2/viz/types.hpp
 -
 
-/opt/barcode-app/core/App.cpp
-App.h
-/opt/barcode-app/core/App.h
+/opt/barcode-app/core/app.cpp
+app.h
+/opt/barcode-app/core/app.h
 iostream
 -
 
-/opt/barcode-app/core/App.h
+/opt/barcode-app/core/app.h
 opencv2/opencv.hpp
 -
-CameraManager.h
-/opt/barcode-app/core/CameraManager.h
-DisplayManager.h
-/opt/barcode-app/core/DisplayManager.h
-SafeQueue.h
-/opt/barcode-app/core/SafeQueue.h
+cameraManager.h
+/opt/barcode-app/core/cameraManager.h
+displayManager.h
+/opt/barcode-app/core/displayManager.h
+safeQueue.h
+/opt/barcode-app/core/safeQueue.h
 
-/opt/barcode-app/core/SafeQueue.h
+/opt/barcode-app/core/safeQueue.h
 queue
 -
 mutex
@@ -1314,9 +1344,9 @@ mutex
 condition_variable
 -
 
-/opt/barcode-app/display/DisplayManager.cpp
-DisplayManager.h
-/opt/barcode-app/display/DisplayManager.h
+/opt/barcode-app/display/displayManager.cpp
+displayManager.h
+/opt/barcode-app/display/displayManager.h
 thread
 -
 opencv2/opencv.hpp
@@ -1324,17 +1354,17 @@ opencv2/opencv.hpp
 disp.h
 -
 
-/opt/barcode-app/display/DisplayManager.h
+/opt/barcode-app/display/displayManager.h
 opencv2/opencv.hpp
 -
-../core/SafeQueue.h
-/opt/barcode-app/core/SafeQueue.h
+safeQueue.h
+/opt/barcode-app/display/safeQueue.h
 
 /opt/barcode-app/main.cpp
 iostream
 -
-core/App.h
-/opt/barcode-app/core/App.h
+core/app.h
+/opt/barcode-app/core/app.h
 
 /opt/barcode-app/media/cameraManager.cpp
 cameraManager.h
@@ -1353,8 +1383,8 @@ camera.h
 /opt/barcode-app/media/cameraManager.h
 opencv2/opencv.hpp
 -
-../core/SafeQueue.h
-/opt/barcode-app/core/SafeQueue.h
+safeQueue.h
+/opt/barcode-app/media/safeQueue.h
 thread
 -
 

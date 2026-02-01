@@ -70,31 +70,31 @@ CMakeFiles/barcode_app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/barcode_app.dir/main.cpp.s"
 	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/barcode-app/main.cpp -o CMakeFiles/barcode_app.dir/main.cpp.s
 
-CMakeFiles/barcode_app.dir/core/App.cpp.o: CMakeFiles/barcode_app.dir/flags.make
-CMakeFiles/barcode_app.dir/core/App.cpp.o: ../core/App.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/barcode-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/barcode_app.dir/core/App.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/barcode_app.dir/core/App.cpp.o -c /opt/barcode-app/core/App.cpp
+CMakeFiles/barcode_app.dir/core/app.cpp.o: CMakeFiles/barcode_app.dir/flags.make
+CMakeFiles/barcode_app.dir/core/app.cpp.o: ../core/app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/barcode-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/barcode_app.dir/core/app.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/barcode_app.dir/core/app.cpp.o -c /opt/barcode-app/core/app.cpp
 
-CMakeFiles/barcode_app.dir/core/App.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/barcode_app.dir/core/App.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/barcode-app/core/App.cpp > CMakeFiles/barcode_app.dir/core/App.cpp.i
+CMakeFiles/barcode_app.dir/core/app.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/barcode_app.dir/core/app.cpp.i"
+	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/barcode-app/core/app.cpp > CMakeFiles/barcode_app.dir/core/app.cpp.i
 
-CMakeFiles/barcode_app.dir/core/App.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/barcode_app.dir/core/App.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/barcode-app/core/App.cpp -o CMakeFiles/barcode_app.dir/core/App.cpp.s
+CMakeFiles/barcode_app.dir/core/app.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/barcode_app.dir/core/app.cpp.s"
+	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/barcode-app/core/app.cpp -o CMakeFiles/barcode_app.dir/core/app.cpp.s
 
-CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.o: CMakeFiles/barcode_app.dir/flags.make
-CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.o: ../display/DisplayManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/barcode-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.o"
-	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.o -c /opt/barcode-app/display/DisplayManager.cpp
+CMakeFiles/barcode_app.dir/display/displayManager.cpp.o: CMakeFiles/barcode_app.dir/flags.make
+CMakeFiles/barcode_app.dir/display/displayManager.cpp.o: ../display/displayManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/opt/barcode-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/barcode_app.dir/display/displayManager.cpp.o"
+	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/barcode_app.dir/display/displayManager.cpp.o -c /opt/barcode-app/display/displayManager.cpp
 
-CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.i"
-	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/barcode-app/display/DisplayManager.cpp > CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.i
+CMakeFiles/barcode_app.dir/display/displayManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/barcode_app.dir/display/displayManager.cpp.i"
+	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/barcode-app/display/displayManager.cpp > CMakeFiles/barcode_app.dir/display/displayManager.cpp.i
 
-CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.s"
-	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/barcode-app/display/DisplayManager.cpp -o CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.s
+CMakeFiles/barcode_app.dir/display/displayManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/barcode_app.dir/display/displayManager.cpp.s"
+	/usr/bin/arm-linux-gnueabihf-g++ --sysroot=/mnt $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/barcode-app/display/displayManager.cpp -o CMakeFiles/barcode_app.dir/display/displayManager.cpp.s
 
 CMakeFiles/barcode_app.dir/media/cameraManager.cpp.o: CMakeFiles/barcode_app.dir/flags.make
 CMakeFiles/barcode_app.dir/media/cameraManager.cpp.o: ../media/cameraManager.cpp
@@ -112,16 +112,16 @@ CMakeFiles/barcode_app.dir/media/cameraManager.cpp.s: cmake_force
 # Object files for target barcode_app
 barcode_app_OBJECTS = \
 "CMakeFiles/barcode_app.dir/main.cpp.o" \
-"CMakeFiles/barcode_app.dir/core/App.cpp.o" \
-"CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.o" \
+"CMakeFiles/barcode_app.dir/core/app.cpp.o" \
+"CMakeFiles/barcode_app.dir/display/displayManager.cpp.o" \
 "CMakeFiles/barcode_app.dir/media/cameraManager.cpp.o"
 
 # External object files for target barcode_app
 barcode_app_EXTERNAL_OBJECTS =
 
 barcode_app: CMakeFiles/barcode_app.dir/main.cpp.o
-barcode_app: CMakeFiles/barcode_app.dir/core/App.cpp.o
-barcode_app: CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.o
+barcode_app: CMakeFiles/barcode_app.dir/core/app.cpp.o
+barcode_app: CMakeFiles/barcode_app.dir/display/displayManager.cpp.o
 barcode_app: CMakeFiles/barcode_app.dir/media/cameraManager.cpp.o
 barcode_app: CMakeFiles/barcode_app.dir/build.make
 barcode_app: /mnt/usr/lib/arm-linux-gnueabihf/libopencv_stitching.so.4.2.0

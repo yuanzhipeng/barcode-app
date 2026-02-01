@@ -2,13 +2,13 @@
 // Created by hebi on 2026/1/30.
 //
 
-#include "App.h"
+#include "app.h"
 #include <iostream>
 
 #define CAMERA_WIDTH	720
 #define CAMERA_HEIGHT	1280
 
-bool App::init() {
+bool app::init() {
 
     if (!camera.init(CAMERA_WIDTH, CAMERA_HEIGHT, 270)) {
         std::cout << "[App] Camera init failed." << std::endl;
@@ -19,7 +19,7 @@ bool App::init() {
     return true;
 }
 
-void App::run() {
+void app::run() {
 
     // 启动摄像头采集县城
     camera.start(frameQueue);

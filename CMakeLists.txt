@@ -31,7 +31,6 @@ set(api_inc
 link_directories(
         ${toolkit_root}/peripheral_api/camera
         ${toolkit_root}/peripheral_api/display
-        ${toolkit_root}/peripheral_api/display
 )
 
 find_package(OpenCV REQUIRED)
@@ -44,6 +43,11 @@ file(GLOB_RECURSE APP_SRC
 
 add_executable(barcode_app main.cpp ${APP_SRC})
 
-target_include_directories(barcode_app PRIVATE ${api_inc} ${OpenCV_INCLUDE_DIRS})
+target_include_directories(barcode_app PRIVATE ${api_inc}
+        ${OpenCV_INCLUDE_DIRS}
+        ${CMAKE_CURRENT_SOURCE_DIR}/core
+        ${CMAKE_CURRENT_SOURCE_DIR}/media
+        ${CMAKE_CURRENT_SOURCE_DIR}/display
+)
 
 target_link_libraries(barcode_app pthread camera display easymedia rga ocr rknn_api ${OpenCV_LIBS})

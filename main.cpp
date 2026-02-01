@@ -1,8 +1,8 @@
 #include <iostream>
-#include "core/App.h"
+#include "core/app.h"
 
 int main() {
-    App app;
+    app app;
     if (!app.init()) return -1;
     app.run();
     return 0;

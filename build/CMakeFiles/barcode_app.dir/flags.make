@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wall -fPIC
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/opt/barcode-app/../EASY-EAI-Toolkit/EASY-EAI-Toolkit-C-SDK/easyeai-api/peripheral_api/camera -I/opt/barcode-app/../EASY-EAI-Toolkit/EASY-EAI-Toolkit-C-SDK/easyeai-api/peripheral_api/display -I/mnt/usr/include/rkfacial -I/mnt/usr/include/rkmedia -isystem /mnt/usr/include/opencv4 
+CXX_INCLUDES = -I/opt/barcode-app/../EASY-EAI-Toolkit/EASY-EAI-Toolkit-C-SDK/easyeai-api/peripheral_api/camera -I/opt/barcode-app/../EASY-EAI-Toolkit/EASY-EAI-Toolkit-C-SDK/easyeai-api/peripheral_api/display -I/mnt/usr/include/rkfacial -I/mnt/usr/include/rkmedia -I/opt/barcode-app/core -I/opt/barcode-app/media -I/opt/barcode-app/display -isystem /mnt/usr/include/opencv4 
 

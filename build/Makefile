@@ -123,59 +123,59 @@ barcode_app/fast:
 	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/build
 .PHONY : barcode_app/fast
 
-core/App.o: core/App.cpp.o
+core/app.o: core/app.cpp.o
 
-.PHONY : core/App.o
-
-# target to build an object file
-core/App.cpp.o:
-	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/core/App.cpp.o
-.PHONY : core/App.cpp.o
-
-core/App.i: core/App.cpp.i
-
-.PHONY : core/App.i
-
-# target to preprocess a source file
-core/App.cpp.i:
-	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/core/App.cpp.i
-.PHONY : core/App.cpp.i
-
-core/App.s: core/App.cpp.s
-
-.PHONY : core/App.s
-
-# target to generate assembly for a file
-core/App.cpp.s:
-	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/core/App.cpp.s
-.PHONY : core/App.cpp.s
-
-display/DisplayManager.o: display/DisplayManager.cpp.o
-
-.PHONY : display/DisplayManager.o
+.PHONY : core/app.o
 
 # target to build an object file
-display/DisplayManager.cpp.o:
-	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.o
-.PHONY : display/DisplayManager.cpp.o
+core/app.cpp.o:
+	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/core/app.cpp.o
+.PHONY : core/app.cpp.o
 
-display/DisplayManager.i: display/DisplayManager.cpp.i
+core/app.i: core/app.cpp.i
 
-.PHONY : display/DisplayManager.i
+.PHONY : core/app.i
 
 # target to preprocess a source file
-display/DisplayManager.cpp.i:
-	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.i
-.PHONY : display/DisplayManager.cpp.i
+core/app.cpp.i:
+	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/core/app.cpp.i
+.PHONY : core/app.cpp.i
 
-display/DisplayManager.s: display/DisplayManager.cpp.s
+core/app.s: core/app.cpp.s
 
-.PHONY : display/DisplayManager.s
+.PHONY : core/app.s
 
 # target to generate assembly for a file
-display/DisplayManager.cpp.s:
-	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.s
-.PHONY : display/DisplayManager.cpp.s
+core/app.cpp.s:
+	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/core/app.cpp.s
+.PHONY : core/app.cpp.s
+
+display/displayManager.o: display/displayManager.cpp.o
+
+.PHONY : display/displayManager.o
+
+# target to build an object file
+display/displayManager.cpp.o:
+	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/display/displayManager.cpp.o
+.PHONY : display/displayManager.cpp.o
+
+display/displayManager.i: display/displayManager.cpp.i
+
+.PHONY : display/displayManager.i
+
+# target to preprocess a source file
+display/displayManager.cpp.i:
+	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/display/displayManager.cpp.i
+.PHONY : display/displayManager.cpp.i
+
+display/displayManager.s: display/displayManager.cpp.s
+
+.PHONY : display/displayManager.s
+
+# target to generate assembly for a file
+display/displayManager.cpp.s:
+	$(MAKE) -f CMakeFiles/barcode_app.dir/build.make CMakeFiles/barcode_app.dir/display/displayManager.cpp.s
+.PHONY : display/displayManager.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,12 +240,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... barcode_app"
-	@echo "... core/App.o"
-	@echo "... core/App.i"
-	@echo "... core/App.s"
-	@echo "... display/DisplayManager.o"
-	@echo "... display/DisplayManager.i"
-	@echo "... display/DisplayManager.s"
+	@echo "... core/app.o"
+	@echo "... core/app.i"
+	@echo "... core/app.s"
+	@echo "... display/displayManager.o"
+	@echo "... display/displayManager.i"
+	@echo "... display/displayManager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

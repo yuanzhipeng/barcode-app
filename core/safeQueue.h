@@ -10,7 +10,7 @@
 #include <condition_variable>
 
 template <typename T>
-class SafeQueue {
+class safeQueue {
     public:
         void push(const T& item) {
             std::lock_guard<std::mutex> lock(mtx);
@@ -31,8 +31,7 @@ class SafeQueue {
         std::mutex mtx;
         std::condition_variable cv;
 
-
-}
+};
 
 
 #endif //BARCODE_SYSTEM_SAFEQUEUE_H

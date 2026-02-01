@@ -7,11 +7,11 @@
 
 
 #include <opencv2/opencv.hpp>
-#include "CameraManager.h"
-#include "DisplayManager.h"
-#include "SafeQueue.h"
+#include "cameraManager.h"
+#include "displayManager.h"
+#include "safeQueue.h"
 
-class App {
+class app {
     public:
         // 初始化摄像头、队列等
         bool init();
@@ -20,9 +20,9 @@ class App {
 
 
     private:
-        CameraManager camera;   // 摄像头采集
-        DisplayManager display;
-        SafeQueue<cv::Mat> frameQueue;  //图像帧队列，线程安全
+        cameraManager camera;   // 摄像头采集
+        displayManager display;
+        safeQueue<cv::Mat> frameQueue;  //图像帧队列，线程安全
 };
 
 

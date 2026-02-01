@@ -12,7 +12,7 @@ extern "C" {
 }
 
 
-bool CameraManager::init(int width, int height, int rotate) {
+bool cameraManager::init(int width, int height, int rotate) {
     cam_width = width;
     cam_height = height;
     cam_rotate = rotate;
@@ -32,7 +32,7 @@ bool CameraManager::init(int width, int height, int rotate) {
     return true;
 }
 
-void CameraManager::start(SafeQueue<cv::Mat>& queue) {
+void cameraManager::start(SafeQueue<cv::Mat>& queue) {
     std::thread([this, &queue]() {
         char* buf = new char[cam_width * cam_height * 3];
 

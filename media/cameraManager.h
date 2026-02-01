@@ -3,7 +3,7 @@
 //
 
 #include <opencv2/opencv.hpp>
-#include "../core/SafeQueue.h"
+#include "safeQueue.h"
 #include <thread>
 
 #ifndef BARCODE_SYSTEM_CAMERAMANAGER_H
@@ -13,7 +13,7 @@
 class cameraManager {
     public:
         bool init(int width, int height, int rotate);
-        void start(SafeQueue<cv::Mat>& queue);
+        void start(safeQueue<cv::Mat>& queue);
         void deinit();
 
     private:

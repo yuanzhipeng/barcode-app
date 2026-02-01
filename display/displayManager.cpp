@@ -2,7 +2,7 @@
 // Created by hebi on 2026/1/30.
 //
 
-#include "DisplayManager.h"
+#include "displayManager.h"
 #include <thread>
 #include <opencv2/opencv.hpp>
 extern "C" {
@@ -10,7 +10,7 @@ extern "C" {
 }
 
 
-void DisplayManager::start(SafeQueue<cv::Mat>& queue) {
+void displayManager::start(safeQueue<cv::Mat>& queue) {
     std::thread([&queue]() {
         cv::Mat frame;
         while (queue.pop(frame)) {

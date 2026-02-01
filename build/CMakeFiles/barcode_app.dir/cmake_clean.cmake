@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/barcode_app.dir/core/App.cpp.o"
-  "CMakeFiles/barcode_app.dir/display/DisplayManager.cpp.o"
+  "CMakeFiles/barcode_app.dir/core/app.cpp.o"
+  "CMakeFiles/barcode_app.dir/display/displayManager.cpp.o"
   "CMakeFiles/barcode_app.dir/main.cpp.o"
   "CMakeFiles/barcode_app.dir/media/cameraManager.cpp.o"
   "barcode_app"
