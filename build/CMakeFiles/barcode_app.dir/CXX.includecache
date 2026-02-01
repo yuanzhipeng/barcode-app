@@ -1297,6 +1297,14 @@ iostream
 -
 
 /opt/barcode-app/core/App.h
+opencv2/opencv.hpp
+-
+CameraManager.h
+/opt/barcode-app/core/CameraManager.h
+DisplayManager.h
+/opt/barcode-app/core/DisplayManager.h
+SafeQueue.h
+/opt/barcode-app/core/SafeQueue.h
 
 /opt/barcode-app/core/SafeQueue.h
 queue
@@ -1310,6 +1318,8 @@ condition_variable
 DisplayManager.h
 /opt/barcode-app/display/DisplayManager.h
 thread
+-
+opencv2/opencv.hpp
 -
 disp.h
 -
@@ -1330,6 +1340,10 @@ core/App.h
 cameraManager.h
 /opt/barcode-app/media/cameraManager.h
 iostream
+-
+opencv2/opencv.hpp
+-
+thread
 -
 disp.h
 -

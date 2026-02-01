@@ -4,7 +4,9 @@
 
 #include "cameraManager.h"
 #include <iostream>
-extern "C {
+#include <opencv2/opencv.hpp>
+#include <thread>
+extern "C" {
 #include <disp.h>
 #include <camera.h>
 }
@@ -18,10 +20,12 @@ bool CameraManager::init(int width, int height, int rotate) {
 
     if (rgbcamera_init(cam_width, cam_height, cam_rotate)) {
         std::cerr << "[CameraManager::init] rgbcamera_init failed!" << std::endl;
+        return false;
     }
 
     if (disp_init(cam_width, cam_height)) {
         std::cerr << "[CameraManager] disp_init failed!" << std::endl;
+        return false;
     }
 
     std::cout << "[CameraManager] Camera and display initialized." << std::endl;
@@ -29,7 +33,7 @@ bool CameraManager::init(int width, int height, int rotate) {
 }
 
 void CameraManager::start(SafeQueue<cv::Mat>& queue) {
-    std::thread([this, queue]() {
+    std::thread([this, &queue]() {
         char* buf = new char[cam_width * cam_height * 3];
 
         while (true) {

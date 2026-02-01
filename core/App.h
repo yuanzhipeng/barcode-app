@@ -6,6 +6,11 @@
 #define BARCODE_SYSTEM_APP_H
 
 
+#include <opencv2/opencv.hpp>
+#include "CameraManager.h"
+#include "DisplayManager.h"
+#include "SafeQueue.h"
+
 class App {
     public:
         // 初始化摄像头、队列等

@@ -4,18 +4,19 @@
 
 #include "DisplayManager.h"
 #include <thread>
+#include <opencv2/opencv.hpp>
 extern "C" {
 #include <disp.h>
 }
 
 
 void DisplayManager::start(SafeQueue<cv::Mat>& queue) {
-    std::thread([&]() {
+    std::thread([&queue]() {
         cv::Mat frame;
         while (queue.pop(frame)) {
             cv::Mat showImage;
             if (frame.channels() == 1) {
-                cv::cvtColor(input_image, rgb_img, COLOR_BGR2RGB);
+                cv::cvtColor(frame, showImage, COLOR_BGR2RGB);
             } else {
                 showImage = frame;
             }
